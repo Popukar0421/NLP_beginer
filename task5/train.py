@@ -1,7 +1,7 @@
 import tensorflow as tf
 from model import PoetryModel
 from data_loader import *
-
+### https://www.cnblogs.com/massquantity/p/9511694.html
 
 def train(word_to_id):
     model = PoetryModel()
